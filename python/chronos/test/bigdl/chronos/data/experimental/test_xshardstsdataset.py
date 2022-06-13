@@ -206,6 +206,8 @@ class TestXShardsTSDataset(TestCase):
             assert collected_df.isna().sum().sum() == 0
             assert len(collected_df) == 100
 
+
+
     def test_xshardstsdataset_sparkdf(self):
         df = generate_spark_df()
 
@@ -231,3 +233,15 @@ class TestXShardsTSDataset(TestCase):
         assert data[0]['y'].shape[1] == 2
         assert data[0]['y'].shape[2] == 1
         assert tsdata.shards.num_partitions() == 1
+
+    def test_xshardstsdataset_scale(self):
+        from sklearn.preprocessing import StandardScaler
+        shards_multiple = read_csv(os.path.join(self.resource_path, "multiple.csv"))
+
+        tsdata = XShardsTSDataset.from_xshards(shards_multiple, dt_col="datetime",
+                                               target_col="value",
+                                               extra_feature_col=["extra feature"], id_col="id")
+
+
+        scaler = StandardScaler()
+        tsdata.scale(scaler)
