@@ -19,7 +19,7 @@ For the detailed algorithm description, please refer to `here <https://github.co
 
 `version:tensorflow`
 
-:strong:`Please refer to` `BaseTF2Forecaster <https://qp-bigdl.readthedocs.io/en/qp_forecaster_doc/doc/PythonAPI/Chronos/forecasters.html#module-bigdl.chronos.forecaster.tf.base_forecaster>`__ :strong:`for other methods other than initialization`.
+:strong:`Please refer to` `BaseTF2Forecaster <https://qp-bigdl.readthedocs.io/en/latest/doc/PythonAPI/Chronos/forecasters.html#module-bigdl.chronos.forecaster.tf.base_forecaster>`__ :strong:`for other methods other than initialization`.
 
 .. automodule:: bigdl.chronos.forecaster.tf.lstm_forecaster
     :members:
@@ -43,7 +43,7 @@ Seq2SeqForecaster wraps a sequence to sequence model based on LSTM, and is suita
 
 `version:tensorflow`
 
-:strong:`Please refer to` `BaseTF2Forecaster <https://qp-bigdl.readthedocs.io/en/qp_forecaster_doc/doc/PythonAPI/Chronos/forecasters.html#module-bigdl.chronos.forecaster.tf.base_forecaster>`__ :strong:`for other methods other than initialization`.
+:strong:`Please refer to` `BaseTF2Forecaster <https://qp-bigdl.readthedocs.io/en/latest/doc/PythonAPI/Chronos/forecasters.html#module-bigdl.chronos.forecaster.tf.base_forecaster>`__ :strong:`for other methods other than initialization`.
 
 .. automodule:: bigdl.chronos.forecaster.tf.seq2seq_forecaster
     :members:
@@ -67,7 +67,7 @@ Temporal Convolutional Networks (TCN) is a neural network that use convolutional
 
 `version:tensorflow`
 
-:strong:`Please refer to` `BaseTF2Forecaster <https://qp-bigdl.readthedocs.io/en/qp_forecaster_doc/doc/PythonAPI/Chronos/forecasters.html#module-bigdl.chronos.forecaster.tf.base_forecaster>`__ :strong:`for other methods other than initialization`.
+:strong:`Please refer to` `BaseTF2Forecaster <https://qp-bigdl.readthedocs.io/en/latest/doc/PythonAPI/Chronos/forecasters.html#module-bigdl.chronos.forecaster.tf.base_forecaster>`__ :strong:`for other methods other than initialization`.
 
 .. automodule:: bigdl.chronos.forecaster.tf.tcn_forecaster
     :members:
