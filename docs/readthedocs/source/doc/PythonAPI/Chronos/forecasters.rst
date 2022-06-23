@@ -134,8 +134,9 @@ BasePytorchForecaster
 BaseTF2Forecaster
 ----------------------------------------
 
-.. autoclass:: bigdl.chronos.forecaster.tf.base_forecaster.BaseTF2Forecaster
+.. automodule:: bigdl.chronos.forecaster.tf.base_forecaster.BaseTF2Forecaster
     :members:
+    :undoc-members:
     :show-inheritance:
 
 
@@ -146,6 +147,7 @@ Long short-term memory(LSTM) is a special type of recurrent neural network(RNN).
 
 For the detailed algorithm description, please refer to `here <https://github.com/intel-analytics/BigDL/blob/main/docs/docs/Chronos/Algorithm/LSTMAlgorithm.md>`__.
 
-.. autoclass:: bigdl.chronos.forecaster.tf.lstm_forecaster.LSTMForecaster
+.. automodule:: bigdl.chronos.forecaster.tf.lstm_forecaster
     :members:
+    :undoc-members:
     :show-inheritance:
