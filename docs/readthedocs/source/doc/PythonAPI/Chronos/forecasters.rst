@@ -134,7 +134,7 @@ BasePytorchForecaster
 BaseTF2Forecaster
 ----------------------------------------
 
-.. automodule:: bigdl.chronos.forecaster.tf.base_forecaster.BaseTF2Forecaster
+.. automodule:: bigdl.chronos.forecaster.tf.base_forecaster
     :members:
     :undoc-members:
     :show-inheritance:
